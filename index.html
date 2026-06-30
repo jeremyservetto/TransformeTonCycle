@@ -9,7 +9,7 @@
 <!-- Local fonts first (offline), Google Fonts as fallback -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
 
 <style>
 /* ============ Local font faces (variable, from EXPORT) ============ */
@@ -24,14 +24,34 @@
   font-weight:400 900; font-style:italic; font-display:swap;
 }
 @font-face{
-  font-family:"DM Local";
-  src:url("EXPORT/Typographie/DM_Sans/DMSans-VariableFont_opsz,wght.ttf") format("truetype");
-  font-weight:300 900; font-style:normal; font-display:swap;
+  font-family:"Poppins Local";
+  src:url("EXPORT/Typographie/Poppins/Poppins-Light.ttf") format("truetype");
+  font-weight:300; font-style:normal; font-display:swap;
 }
 @font-face{
-  font-family:"DM Local";
-  src:url("EXPORT/Typographie/DM_Sans/DMSans-Italic-VariableFont_opsz,wght.ttf") format("truetype");
-  font-weight:300 900; font-style:italic; font-display:swap;
+  font-family:"Poppins Local";
+  src:url("EXPORT/Typographie/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight:400; font-style:normal; font-display:swap;
+}
+@font-face{
+  font-family:"Poppins Local";
+  src:url("EXPORT/Typographie/Poppins/Poppins-Italic.ttf") format("truetype");
+  font-weight:400; font-style:italic; font-display:swap;
+}
+@font-face{
+  font-family:"Poppins Local";
+  src:url("EXPORT/Typographie/Poppins/Poppins-Medium.ttf") format("truetype");
+  font-weight:500; font-style:normal; font-display:swap;
+}
+@font-face{
+  font-family:"Poppins Local";
+  src:url("EXPORT/Typographie/Poppins/Poppins-SemiBold.ttf") format("truetype");
+  font-weight:600; font-style:normal; font-display:swap;
+}
+@font-face{
+  font-family:"Poppins Local";
+  src:url("EXPORT/Typographie/Poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight:700; font-style:normal; font-display:swap;
 }
 
 /* ============ Tokens ============ */
@@ -50,7 +70,7 @@
   --line-2:rgba(79,11,12,.08);
 
   --serif:"Playfair Local","Playfair Display",Georgia,serif;
-  --sans:"DM Local","DM Sans",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  --sans:"Poppins Local","Poppins",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
 
   --r:22px;
   --r-sm:14px;
@@ -404,7 +424,7 @@ footer .fm{font-family:var(--serif);font-size:16px;color:var(--ink);margin-botto
         <p class="alpha">Aa Bb Cc Dd · 0123456789 · &amp; é à</p>
       </div>
       <div class="type-row">
-        <div class="lbl"><span>Texte · DM Sans</span><span>Sans-serif</span></div>
+        <div class="lbl"><span>Texte · Poppins</span><span>Sans-serif</span></div>
         <p class="big-sans">Un corps de texte clair, lisible et apaisant.</p>
         <div class="sans-scale">
           <span style="font-weight:300">Light</span>
@@ -422,8 +442,8 @@ footer .fm{font-family:var(--serif);font-size:16px;color:var(--ink);margin-botto
           <span>Playfair Display</span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
         </a>
-        <a class="dl-btn" style="justify-content:space-between" href="EXPORT/Typographie/DM_Sans/DMSans-VariableFont_opsz,wght.ttf" download>
-          <span>DM Sans</span>
+        <a class="dl-btn" style="justify-content:space-between" href="EXPORT/Typographie/Poppins/Poppins-Regular.ttf" download>
+          <span>Poppins</span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
         </a>
       </div>
